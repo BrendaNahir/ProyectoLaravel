@@ -1,0 +1,32 @@
+Installing
+
+#1
+    composer require spatie/laravel-permission
+
+#2
+    config/app.php
+
+    'providers' => [
+        // ...
+        Spatie\Permission\PermissionServiceProvider::class,
+    ];
+
+#3      You should publish the migration and the config/permission.php config file with:
+
+    artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
+
+#4
+     php artisan config:clear
+
+#5
+     php artisan migrate
+
+#6
+    Add the necessary trait to your User model:
+
+    // Library
+    use Spatie\Permission\Traits\HasRoles;
+
+    // The User model requires this trait
+    use HasRoles;
+
