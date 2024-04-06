@@ -30,3 +30,5 @@ Installing
     // The User model requires this trait
     use HasRoles;
 
+#7 create a seeder and User
+    AddRoleAndPermissionSeeder
