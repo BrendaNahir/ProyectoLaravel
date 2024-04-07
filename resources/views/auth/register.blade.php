@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@extends('layouts.nav_guest')
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
