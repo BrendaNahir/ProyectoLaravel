@@ -22,6 +22,7 @@ class CreateUsersDataTable extends Migration
             $table->string('avatar',400)->nullable();
             $table->string('address',200);
             $table->string('mobile')->nullable();
+            $table->date('date_of_birth');
             $table->foreign('user_id')->references('id')->on('users');
             $table->softDeletes();
             $table->timestamps();
