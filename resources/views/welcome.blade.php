@@ -121,7 +121,7 @@
                 <div class="container">
                     <div class="row mb-2">
                     <div class="col-sm-6">
-                        <h1 class="m-0"> Top Navigation <small>Example 3.0</small></h1>
+                        <h1 class="m-0"> Esta es la página principal <small>Example 3.0</small></h1>
                     </div><!-- /.col -->
 
                     </div><!-- /.row -->
